@@ -21,7 +21,7 @@ public boolean palindrome(String word)
       if(Character.isLetter(word.charAt(i)) == true) 
           sWord = sWord + word.charAt(i); 
   }  
-  //lowecase
+    //lowercase
     sWord = sWord.toLowerCase(); 
   for(int i = 0; i <= sWord.length()/2; i++) { 
       if(sWord.charAt(i) != sWord.charAt(sWord.length()-i-1))
